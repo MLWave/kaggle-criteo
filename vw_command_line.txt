@@ -1,0 +1,7 @@
+Training VW:
+
+./vw click.train.vw -f click.model.vw --loss_function logistic
+
+Testing VW:
+
+./vw click.test.vw -t -i click.model.vw -p click.preds.txt
